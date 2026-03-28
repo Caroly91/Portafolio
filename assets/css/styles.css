@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  width: 300px;
+  padding: 16px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+.card h2 {
+  margin: 0 0 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 16px;
+}
+
+.card button {
+  margin: 6px;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn-proyecto {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-repo {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.card button:hover {
+  opacity: 0.9;
+}
